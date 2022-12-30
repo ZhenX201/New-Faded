@@ -1,0 +1,80 @@
+-- CONFIG:
+shared.ftime = 250 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ 
+[(I] E [QI] E [(I] E [QP] E 
+[7D] Q [(D] Q [7D] Q [(S] Q 
+[QP] T [EP] T [QP] T [EP] T 
+[*i] W [qi] W [*i] W [qi] W 
+[(I] E [QI] E [(I] E [QP] E 
+[7D] Q [(D] Q [7D] Q [(S] Q 
+[QP] T [EP] T [QP] T [EP] T 
+[*i] W [qi] W [*i] W [qi] W 
+( [EI] [QI] [EY] [(I] [EY] [QI] [EO] 
+[7P] Q [(I] [QI] [7T] [QP] ( [QP] 
+Q T E T Q [TI] [EI] [TO] 
+[*i] W q [Wi] [*i] [WY] [qI] W 
+( [EI] [QI] [EY] [(I] [EY] [QI] [EO] 
+[7P] Q [(I] [QI] [7S] [QO] ( [QP] 
+Q T E T Q [TI] [EI] [TO] 
+[*i] W q W * [WP] [qP] [WP] 
+[(P] E Q E ( E Q E 
+7 Q ( Q 7 [QP] [(P] [QP] 
+[QP] T E T Q T E T 
+* W q W * [WP] [qP] [WP] 
+[(P] E Q E ( E Q E 
+7 Q ( Q 7 [QP] [(P] [QP] 
+[QP] T E T Q T E T 
+* W q W * W q W 
+[(I] [EI] [QI] [EI] [(I] [EI] [QP] [EP] 
+[7D] [QD] [(D] [QD] [7D] [QD] [(S] [QS] 
+[QP] [TP] [EP] [TP] [QP] [TP] [EP] [TP] 
+[*i] [Wi] [qi] [Wi] [*i] [Wi] [qi] [Wi] 
+[(I] [EI] [QI] [EI] [(I] [EI] [QP] [EP] 
+[7D] [QD] [(D] [QD] [7D] [QD] [(S] [QS] 
+[QP] [TP] [EP] [TP] [QP] [TP] [EP] [TP] 
+[*i] [Wi] [qi] [Wi] [*i] [Wi] [qi] [Wi] 
+[(I] [EI] [QI] [EI] [(P] [EP] [QG] [Eg] 
+[7D] [QD] [(D] [QS] [7S] [QS] [(S] [QS] 
+[QP] [TP] [EP] [TP] [QS] [Ta] [EP] [TI] 
+[*i] [Wi] [qi] [Wi] [*O] [WO] [qi] [Wi] 
+[(I] [EI] [QI] [EI] [(P] [EP] [QG] [Eg] 
+[7D] [QD] [(D] [QS] [7S] [QS] [(S] [QS] 
+[QP] [TP] [EP] [TP] [QS] [Ta] [EP] [TI] 
+[*i] [Wi] [qi] [Wi] [*O] [WO] [qi] [Wi] 
+( [EI] [QI] [EY] [(I] [EY] [QI] [EO] 
+[7P] Q [(I] [QI] [7T] [QP] ( [QP] 
+Q T E T Q [TI] [EI] [TO] 
+[*i] W q [Wi] [*i] [WY] [qI] W 
+( [EI] [QI] [EY] [(I] [EY] [QI] [EO] 
+[7P] Q [(I] [QI] [7S] [QO] ( [QP] 
+Q T E T Q [TI] [EI] [TO] 
+[*i] W q W * [WP] [qP] [WP] 
+[(P] E Q E ( E Q E 
+7 Q ( Q 7 [QP] [(P] [QP] 
+[QP] T E T Q T E T 
+* W q W * [WP] [qP] [WP] 
+[(P] E Q E ( E Q E 
+7 Q ( Q 7 [QP] [(P] [QP] 
+[QP] T E T Q T E T 
+* W q W * W q W 
+[(I] [EI] [QI] [EI] [(I] [EI] [QP] [EP] 
+[7D] [QD] [(D] [QD] [7D] [QD] [(S] [QS] 
+[QP] [TP] [EP] [TP] [QP] [TP] [EP] [TP] 
+[*i] [Wi] [qi] [Wi] [*i] [Wi] [qi] [Wi] 
+[(I] [EI] [QI] [EI] [(I] [EI] [QP] [EP] 
+[7D] [QD] [(D] [QD] [7D] [QD] [(S] [QS] 
+[QP] [TP] [EP] [TP] [QP] [TP] [EP] [TP] 
+[*i] [Wi] [qi] [Wi] [*i] [Wi] [qi] [Wi] 
+[(I] [EI] [QI] [EI] [(P] [EP] [QG] [Eg] 
+[7D] [QD] [(D] [QS] [7S] [QS] [(S] [QS] 
+[QP] [TP] [EP] [TP] [QS] [Ta] [EP] [TI] 
+[*i] [Wi] [qi] [Wi] [*O] [WO] [qi] [Wi] 
+[(I] [EI] [QI] [EI] [(P] [EP] [QG] [Eg] 
+[7D] [QD] [(D] [QS] [7S] [QS] [(S] [QS] 
+[QP] [TP] [EP] [TP] [QS] [Ta] [EP] [TI] 
+[*i] [Wi] [qi] [Wi] [*O] [WO] [qi] [Wi] ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZhenX201/Auto-Piano-Player/main/source"))()
